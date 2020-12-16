@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="estilo/pessoa.css"rel="stylesheet">
+<link href="estilo/estilo.css"rel="stylesheet">
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h2>Cadastro pessoal</h2>
+<form>
+  <label for="snome">Nome:</label><br>
+  <input type="text" id="snome" name="snome" placeholder="Digite seu Nome aqui" value=""><br>
+<label for="onome">Endereço:</label><br>
+  <input type="text" id="onome" name="onome" value=""><br>
+  <label for="inome">Telefone:</label><br>
+  <input type="text" id="inome" name="inome" value=""><br>
+<form>
+<form>
+    Data de nascimento: <input type="date" name="nascimento">
+</form>
+<form>
+  <label for="ggenero">Genero:</label><br>
+  <input type="radio" id="masculino" name="gender" value="masculino">
+  <label for="masculino">Masculino</label><br>
+  <input type="radio" id="feminino" name="gender" value="feminino">
+  <label for="feminino">Feminino</label><br>
+  <input type="radio" id="outro" name="gender" value="outro">
+  <label for="outro">outro</label><br><br>
+</form>
+<form action=" " method="post">
+  <label for="busca">Pesquisar Livro</label>
+  <input type="search" id="busca" name="q">
+  <button type="submit">&#128269;</button>
+</form>
+<br>
+<form>
+    Defina seu nível de satisfação:<br>
+    pouco satisfeito
+    <input type="range" name="satisfacao" min="0" max="10">
+    muito satisfeito
+</form>
+<br>
+<form>
+    <input type="submit" value="Enviar Formulário">
+</form>
+
+</body>
+</html>
